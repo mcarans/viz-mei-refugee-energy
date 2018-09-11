@@ -470,8 +470,8 @@ var datasetDate;
 var countryOverview, refugeePopData, countryNames, cookingPerCountry;
 var myCookingChart, myLightingChart;
 var charts = [];
-var lightingColors = {'On grid':'#8bb2cd','Torch dependent':'#bdd2c8','Kerosene dependent':'#f2d9a3','Solar dependent':'#f4c5a0'};
-var cookingColors = {'LPG/Natural Gas':'#00719a','Firewood dependent':'#7da895','Firewood/charcoal mix':'#bea487','Alternative biomass':'#e1b53d','Kerosene dependent':'#e68944'};
+var lightingColors = {'On grid':'#8bb2cd','Torch dependent':'#bdd2c8','Liquid-Fuel dependent':'#f2d9a3','Solar dependent':'#f4c5a0'};
+var cookingColors = {'LPG/Natural Gas':'#00719a','Firewood dependent':'#7da895','Firewood/charcoal mix':'#bea487','Alternative biomass':'#e1b53d','Liquid-Fuel dependent':'#e68944'};
 var pieColors = {'cooking':cookingColors,'lighting':lightingColors};
 
 $.when(datasetCall, nonCampCall,largeCampCall,geomCall,popCall).then(function(datasetArgs, nonCampArgs,largeCampArgs,geomArgs,popArgs){
